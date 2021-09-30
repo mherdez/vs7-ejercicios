@@ -11,7 +11,7 @@
 */
 
 body {
-  background-color: hsl(234, 32%, 61%);
+  background-color: hsl(233, 47%, 7%);
   font-family: "Inter", sans-serif;
   font-family: "Lexend Deca", sans-serif;
   height: 100vh;
@@ -22,7 +22,7 @@ body {
 }
 
 .card {
-   width: 1200px;
+   width: 1000px;
    height: 500px;
    background-color: rgb(216, 135, 77);
    border-radius: 10px;
@@ -31,16 +31,32 @@ body {
 }
 
 .card-right {
-   width: 50%;
-   height: 100%;
-   background-color: goldenrod;
+   flex-basis: 50%;
+   height: 500px;
    background-image: url(./images/image-header-desktop.jpg);
    background-repeat: no-repeat;
    background-size: cover;
 }
 .card-left {
-   width: 50%;
+   flex-basis: 50%;
    height: 100%;
-   background-color: darkgreen;
+   padding: 60px;
 }
 
+.card-left-title {
+   font-family: "Inter", sans-serif;
+   font-size: 38px;
+   font-weight: 700;
+   color: hsl(0, 0%, 100%);
+   margin-bottom: 20px;
+}
+
+.card-left-title span {
+   color: hsl(277, 64%, 61%);
+}
+
+.card-left-text {
+   margin-right: 40px;
+   color: hsla(0, 0%, 100%, 0.75);
+   line-height: 25px;
+}
