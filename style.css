@@ -14,5 +14,33 @@ body {
   background-color: hsl(234, 32%, 61%);
   font-family: "Inter", sans-serif;
   font-family: "Lexend Deca", sans-serif;
+  height: 100vh;
   font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.card {
+   width: 1200px;
+   height: 500px;
+   background-color: rgb(216, 135, 77);
+   border-radius: 10px;
+   display: flex;
+   overflow: hidden;
+}
+
+.card-right {
+   width: 50%;
+   height: 100%;
+   background-color: goldenrod;
+   background-image: url(./images/image-header-desktop.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.card-left {
+   width: 50%;
+   height: 100%;
+   background-color: darkgreen;
+}
+
